@@ -1,0 +1,6 @@
+*.tfstate*
+*.lock*
+*.terraform*
+*.tf
+user-data.sh
+.gitignore
