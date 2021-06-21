@@ -1,3 +1,18 @@
+#ECS CLUSTER
+1. Install aws cli v2 and configure credentials on machine.
+https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html
+
+2. Depending on the Operating System look up in your user profile directory for .aws directory and write the path to credentials on the main.tf file on shared credentials file. 
+
+3. Change the Region variable on variables.tf to your liking. On a shell and in the same directory as the cloned repo. Type terraform init
+
+4. Then terraform plan, Verify changes. 
+
+5. Then Terraform apply
+
+6. You should have an ECS cluster running with everything in the region specified. 
+
+#METAPLEX
 <p align="center">
   <a href="https://metaplex.com">
     <img alt="Metaplex" src="https://metaplex.com/meta.svg" width="250" />
