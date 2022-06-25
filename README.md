@@ -1,3 +1,6 @@
+NFT Store Test on Metaplex
+
+
 #ECS CLUSTER
 1. Install aws cli v2 and configure credentials on machine.
 https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html
